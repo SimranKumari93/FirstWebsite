@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 18px;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/95/44/a6/9544a6b59318a90b4e6ed407ba364793.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+    height: 66px;
+    box-shadow: rgba(0,0,0, 0.15) 1.95px 1.95px 2.6px;
+}
+nav{
+padding: 10px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-emphasis-color: antiquewhite;
+}
+input{
+    font-size: 16px;
+    height: 33px;
+    width: 272px;
+    align-self: right;
+    margin-left: 530px;
+    font-family: 'Poppins';
+    border-image: url("E:\Users\anura\OneDrive\Documents\web img\search.png");
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.rightBox{
+    display: flex;
+    height: 30px;
+    width: 29px;
+    margin: 20px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin: 9px 14px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: 400;
+}
+.donate-btn{
+    text-decoration: none;
+    color: rgb(244, 235, 249);
+    margin-right: 15px;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px;
+    color: aliceblue;
+    background-image: linear-gradient(45deg, #e5dde3cd, #d8d0d8);
+    font-size: 19px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    transition: 0.5s;
+}
+font{
+    font-size: 18px;
+    margin: 51px;
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 0px;
+}
+.content{
+    margin-top: 8%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 72px;
+    color:rgb(201, 208, 192);
+}
+.content p{
+    color: rgb(211, 217, 183);
+    margin: 12px 0 30px;
+    font-size: 25px;
+    padding-left: 15px;
+    animation-delay: 0.55s;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.6s linear forwards;
+}@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.hero1{
+    width: 100%;
+    min-height: 7vh;
+    background-color: rgb(118, 132, 132);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu-bar{
+    background: rgb(115, 123, 115);
+    text-align: center;
+    text-size-adjust: 40px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+width: 150px;
+margin: 10px;
+padding: 1px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;}
+.menu-bar ul li:hover{
+    background: #4e504d;
+    width: auto;
+    }
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+    position: relative;
+    z-index: 100;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(80, 83, 80);
+    margin-top: 6px;
+    margin-left: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 8px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 80px;
+    padding: 4px;
+    border-bottom: 1px dotted rgb(109, 104, 104);
+    border-radius: 0px;
+    background: transparent;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+border-bottom: none;}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #737b71;
+}
+input{
+    border-radius: 5px;
+    height: 28px;
+}
+section{
+    background-color: rgb(118, 143, 143);
+    margin: 0px;
+    padding: auto;
+}
+.bookimg{
+    width: 12vw;
+    margin: 26px;
+}
+.anim4{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 2.5s linear forwards;
+    animation-delay: 0.65s;
+}
+.anim5{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 3s linear forwards;
+    animation-delay: 0.7s;
+}
+.anim6{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 3.5s linear forwards;
+    animation-delay: 0.75s;
+}
+.anim7{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4s linear forwards;
+    animation-delay: 0.8s;
+}
+.anim8{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 0.85s;
+}
+.anim9{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 5s linear forwards;
+    animation-delay: 0.9s;
+}
+.anim10{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 0.92s;
+}
+.bookimg1{
+    width: 12vw;
+    margin: 26px;
+}
+.anim14{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 1.4s;
+}
+.anim11{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 1.5s;
+}
+.anim13{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 1.6s;
+}
+.anim15{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 1.65s;
+}
+.anim12{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 4.5s linear forwards;
+    animation-delay: 1.55s;
+}
+.bookimg2{
+    height: 120px;
+    width: 120px;
+    margin-left: 710px;
+    border-radius: 50%;
+}
+h3{
+    font-style: 'Poppins';
+}
+.bookimg3{
+    width: 2vw;
+    margin: 2px;
+    margin-left: 710px;
+    border-radius: 50%;
+}
+.bookimg4{
+    width: 2vw;
+    margin: 2px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+.bookimg6{
+    width: 2vw;
+    margin: 2px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
